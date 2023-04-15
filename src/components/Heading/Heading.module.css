@@ -1,0 +1,10 @@
+.Heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-family: 'Rajdhani';
+    font-weight: bold;
+    color: var(--text-primary);
+    font-size: 36px;
+}

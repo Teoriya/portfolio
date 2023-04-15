@@ -1,0 +1,20 @@
+.App {
+    background-color: var(--background);
+}
+
+.content {
+    width: calc(100% - 100px);
+    height: 100%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+}

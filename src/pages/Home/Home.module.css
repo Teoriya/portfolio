@@ -1,0 +1,36 @@
+.home {
+    background-image: url(/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    color: #BEBEBE;
+    filter: blur(0.5px);
+}
+
+.title {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 85px;
+    line-height: 96px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.container{
+    position: absolute;
+    top:45%;
+    left: 10%;
+}

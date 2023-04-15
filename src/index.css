@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* -ms-overflow-style: none;  
+  scrollbar-width: none;   */
+}
+
+/* *::-webkit-scrollbar {
+  display: none;
+} */
+
+:root  {
+  --background: #111111;
+  --text-primary: #ffffff;
+  --text-seceondary: #808080;
+  --btn-primary: #008787;
+  --btn-secondary: #045050;
+  --accent: #006565;
+  --accent2: #008787;
+}
+[data-theme='dark']{
+  --background: #ffffff;
+  --text-primary: #101010;
+  --text-seceondary: #808080;
+  --btn-primary: #008787;
+  --btn-secondary: #045050;
+  --accent: #006565;
+}
